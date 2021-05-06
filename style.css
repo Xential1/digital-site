@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding: 0 !important;
+}
+.navbar-brand img{
+    height: 60px;
+    padding-left: 20px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav a{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+    margin-right: 2rem;
+}
+.fa-bars{
+    color: #fff;
+    font-size: 30 !important;
+    margin-top: 1.4rem;
+}
+.navbar-toggler{
+    outline: none;
+}
+/*--------Banner section*/
+#banner{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #fff;
+    padding: 5%;
+}
+.promo-title{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.play-btns{
+    width: 45px;
+    margin: 20px;
+}
+#banner a{
+    color: #fff;
+    text-decoration: none;
+}
+.img-fluid1{
+    flex-basis: 40%;
+    min-width: 300px;
+    margin-bottom: 30px;
+    animation: move 4s linear infinite;
+}
+@keyframes move{
+    0%{
+        transform: translate(-20px, 0px);
+    }
+    50%{
+        transform: translate(0px, -20px);
+    }
+    100%{
+        transform: translate(-20px, 0px);
+    }
+}
+}
+
+/*------service Section*/
+
+#services{
+    padding: 80px 0;
+}
+.service-img{
+    width: 100px;
+    margin-top: 20px;
+}
+.services{
+    padding: 20px;
+}
+.der{
+    width: 40%;
+}
+.services h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.title::before{
+    content: '';
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after{
+    content: '';
+    background: #7b1798;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 30px;
+    transform: translateY(11px);
+}
+#services .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+/*-----about us section*/
+#About-us{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.about-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+#About-us ul li{
+    margin: 10px 0;
+}
+#About-us ul{
+    margin-left: 20px;
+}
+/*------testimonial section*/
+#testimonial{
+    margin: 100px 0;
+}
+.testimonials{
+    border-left: 4px solid #7b1798;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonials img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user-details{
+    display: inline-block;
+    font-size: 14px;
+}
+/*------social media section*/
+#social-media{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+#social-media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icon img{
+  width: 60px;
+  transition: 0.5s;
+}
+.social-icon a:hover img{
+    transform: translateY(-10px);
+}
+/*------footer section*/
+#footer{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #fff;
+}
+.footer-box{
+    padding: 10px;
+}
+.footer-box img{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.footer-box .fa{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+.footer-box .form-control{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.footer-box1 .btn-primary{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+.footer-box1{
+    margin-top: 3.5rem;
+}
+hr{
+    background-color: #fff;
+}
+.copyriht{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
